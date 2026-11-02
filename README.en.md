@@ -18,6 +18,9 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green" />
+  <a href="https://github.com/gqallen931/electron-react-desktop-framework">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-electron--react--desktop--framework-181717?logo=github&logoColor=white" />
+  </a>
 </p>
 
 ---
@@ -35,6 +38,8 @@ Desktop Framework is an engineering skeleton for desktop business applications. 
 
 A sample entity (items) demonstrates the full path from API to page. The sample contains no industry rules, real data or
 third-party credentials; removing it leaves a blank engineering skeleton.
+
+Repository: https://github.com/gqallen931/electron-react-desktop-framework
 
 ### 1.2 Where it fits
 
@@ -414,6 +419,10 @@ Screenshots are taken from the running application (1440×900, sample data).
 ### 11.2 Install and run
 
 ```bash
+# clone the repository
+git clone git@github.com:gqallen931/electron-react-desktop-framework.git
+cd electron-react-desktop-framework
+
 # install frontend dependencies
 npm install
 

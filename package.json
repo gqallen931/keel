@@ -5,6 +5,14 @@
   "description": "Electron + React + TypeScript 桌面应用框架：自绘标题栏、设计系统、REST/WS 数据层与 Python 服务骨架",
   "author": "SCS Framework",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gqallen931/electron-react-desktop-framework.git"
+  },
+  "homepage": "https://github.com/gqallen931/electron-react-desktop-framework#readme",
+  "bugs": {
+    "url": "https://github.com/gqallen931/electron-react-desktop-framework/issues"
+  },
   "main": "out/main/index.js",
   "scripts": {
     "dev": "electron-vite dev",

@@ -18,6 +18,9 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green" />
+  <a href="https://github.com/gqallen931/electron-react-desktop-framework">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-electron--react--desktop--framework-181717?logo=github&logoColor=white" />
+  </a>
 </p>
 
 ---
@@ -35,6 +38,8 @@ Desktop Framework 是一个面向桌面端业务系统的工程骨架，覆盖�
 
 框架内置一组示例实体（items），用于演示从接口到页面的完整链路。示例不包含任何行业规则、真实数据或第三方凭据，
 移除示例后即为空白工程骨架。
+
+仓库地址：https://github.com/gqallen931/electron-react-desktop-framework
 
 ### 1.2 适用场景
 
@@ -412,6 +417,10 @@ flowchart LR
 ### 11.2 安装与启动
 
 ```bash
+# 克隆仓库
+git clone git@github.com:gqallen931/electron-react-desktop-framework.git
+cd electron-react-desktop-framework
+
 # 安装前端依赖
 npm install
 

@@ -18,6 +18,9 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green" />
+  <a href="https://github.com/gqallen931/electron-react-desktop-framework">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-electron--react--desktop--framework-181717?logo=github&logoColor=white" />
+  </a>
 </p>
 
 ---
@@ -35,6 +38,8 @@ Desktop Framework はデスクトップ業務システム向けのエンジニ�
 
 サンプルエンティティ（items）で API から画面までの一連の流れを示します。サンプルには業界固有のルール、
 実データ、第三者認証情報は含まれず、削除すれば空の骨格になります。
+
+リポジトリ：https://github.com/gqallen931/electron-react-desktop-framework
 
 ### 1.2 適用シーン
 
@@ -415,6 +420,10 @@ flowchart LR
 ### 11.2 インストールと起動
 
 ```bash
+# リポジトリをクローン
+git clone git@github.com:gqallen931/electron-react-desktop-framework.git
+cd electron-react-desktop-framework
+
 # フロントエンド依存関係をインストール
 npm install
 
