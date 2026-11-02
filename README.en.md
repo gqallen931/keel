@@ -75,6 +75,11 @@ Repository: https://github.com/gqallen931/keel
 
 ## 3. Architecture
 
+> The full enterprise architecture design lives in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): positioning and
+> design principles, five-layer responsibilities, cross-layer contracts and dependency bans, 7 standard UML sequence
+> diagrams, module details, quality attributes (performance / reliability / security / maintainability), and
+> multi-environment deployment topologies. The sections below are a quick tour.
+
 ### 3.1 Layers and components
 
 The system consists of three runtime processes/services with fixed boundaries:
@@ -355,7 +360,7 @@ flowchart LR
 ├── build/icon.ico               # application icon
 ├── docs/
 │   ├── API.md                   # IPC / HTTP / WS / frontend module contracts
-│   ├── ARCHITECTURE.md          # layering, dependency rules, security baseline
+│   ├── ARCHITECTURE.md          # enterprise architecture (layers / sequence / quality / deployment)
 │   └── images/                  # README screenshots and logo
 ├── src/
 │   ├── main/                    # main process

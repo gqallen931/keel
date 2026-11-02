@@ -75,6 +75,10 @@ Keel 是一个面向桌面端业务系统的工程骨架，覆盖四个基础层
 
 ## 3. 架构设计
 
+> 完整的企业级架构设计见 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)：涵盖定位与设计原则、五层职责边界、
+> 层间契约与依赖禁令、7 条标准 UML 时序图、核心模块详述、质量属性（性能 / 可靠性 / 安全 / 可维护性）
+> 与多环境部署拓扑。以下为速览。
+
 ### 3.1 分层与组件
 
 系统由三个运行时进程/服务构成，边界固定：
@@ -353,7 +357,7 @@ flowchart LR
 ├── build/icon.ico               # 应用图标
 ├── docs/
 │   ├── API.md                   # IPC / HTTP / WS / 前端模块契约
-│   ├── ARCHITECTURE.md          # 分层、依赖约束、安全基线
+│   ├── ARCHITECTURE.md          # 企业级架构设计（分层 / 时序 / 质量属性 / 部署）
 │   └── images/                  # README 截图与标识
 ├── src/
 │   ├── main/                    # 主进程
