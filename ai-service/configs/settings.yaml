@@ -1,0 +1,10 @@
+# 服务运行参数
+host: 127.0.0.1
+port: 8800
+
+# SQLite 数据文件（相对 ai-service/ 目录）
+db_path: runtime/app.db
+
+# 跨域白名单（Electron 渲染进程为 file:// 时使用 *，生产可收紧）
+cors_origins:
+  - "*"
