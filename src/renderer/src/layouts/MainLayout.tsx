@@ -52,7 +52,7 @@ export default function MainLayout(): JSX.Element {
   const searchRef = useRef<HTMLInputElement>(null)
 
   const pathname = location.pathname
-  const meta = ROUTE_META[pathname] ?? { title: 'Desktop Framework', desc: '' }
+  const meta = ROUTE_META[pathname] ?? { title: 'Keel', desc: '' }
   const showRail = pathname === '/overview'
 
   // 服务健康探测
@@ -216,7 +216,7 @@ export default function MainLayout(): JSX.Element {
             </div>
             <ApiOutlined className="gear" />
           </button>
-          <div className="sign">MIT Licensed · Desktop Framework</div>
+          <div className="sign">MIT Licensed · Keel</div>
         </div>
       </aside>
 

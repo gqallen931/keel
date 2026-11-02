@@ -1,17 +1,17 @@
 {
-  "name": "electron-react-desktop-framework",
+  "name": "keel",
   "version": "1.0.0",
   "private": true,
-  "description": "Electron + React + TypeScript 桌面应用框架：自绘标题栏、设计系统、REST/WS 数据层与 Python 服务骨架",
-  "author": "SCS Framework",
+  "description": "Keel - 轻量、可裁剪的桌面应用工程骨架：自绘标题栏、设计系统、REST/WS 数据层与本地服务",
+  "author": "Keel Contributors",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gqallen931/electron-react-desktop-framework.git"
+    "url": "git+https://github.com/gqallen931/keel.git"
   },
-  "homepage": "https://github.com/gqallen931/electron-react-desktop-framework#readme",
+  "homepage": "https://github.com/gqallen931/keel#readme",
   "bugs": {
-    "url": "https://github.com/gqallen931/electron-react-desktop-framework/issues"
+    "url": "https://github.com/gqallen931/keel/issues"
   },
   "main": "out/main/index.js",
   "scripts": {

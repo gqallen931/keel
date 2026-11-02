@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/images/logo.png" width="84" alt="Desktop Framework logo" />
+  <img src="docs/images/logo.png" width="84" alt="Keel logo" />
 </p>
 
-<h1 align="center">Desktop Framework</h1>
+<h1 align="center">Keel</h1>
 
 <p align="center">Electron + React + TypeScript desktop application framework</p>
 
@@ -18,8 +18,8 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green" />
-  <a href="https://github.com/gqallen931/electron-react-desktop-framework">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-electron--react--desktop--framework-181717?logo=github&logoColor=white" />
+  <a href="https://github.com/gqallen931/keel">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-keel-181717?logo=github&logoColor=white" />
   </a>
 </p>
 
@@ -29,7 +29,7 @@
 
 ### 1.1 What it is
 
-Desktop Framework is an engineering skeleton for desktop business applications. It covers four foundation layers:
+Keel is an engineering skeleton for desktop business applications. It covers four foundation layers:
 
 - **Desktop shell**: frameless window, custom title bar, window controls and system-capability IPC;
 - **UI system**: design tokens, Ant Design theme alignment, atomic components and the application shell layout;
@@ -39,7 +39,7 @@ Desktop Framework is an engineering skeleton for desktop business applications. 
 A sample entity (items) demonstrates the full path from API to page. The sample contains no industry rules, real data or
 third-party credentials; removing it leaves a blank engineering skeleton.
 
-Repository: https://github.com/gqallen931/electron-react-desktop-framework
+Repository: https://github.com/gqallen931/keel
 
 ### 1.2 Where it fits
 
@@ -420,8 +420,8 @@ Screenshots are taken from the running application (1440×900, sample data).
 
 ```bash
 # clone the repository
-git clone git@github.com:gqallen931/electron-react-desktop-framework.git
-cd electron-react-desktop-framework
+git clone git@github.com:gqallen931/keel.git
+cd keel
 
 # install frontend dependencies
 npm install

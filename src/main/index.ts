@@ -17,7 +17,7 @@ function createWindow(): BrowserWindow {
     frame: false,
     autoHideMenuBar: true,
     backgroundColor: '#f5f5f4',
-    title: 'Desktop Framework',
+    title: 'Keel',
     webPreferences: {
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false,

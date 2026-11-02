@@ -34,7 +34,7 @@ def system_health() -> HealthInfo:
 @router.get("/api/system/info", response_model=ServiceInfo)
 def system_info() -> ServiceInfo:
     return ServiceInfo(
-        name="Desktop Framework Service",
+        name="Keel Service",
         version=VERSION,
         python=sys.version.split()[0],
         device=platform.machine(),

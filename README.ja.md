@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/images/logo.png" width="84" alt="Desktop Framework logo" />
+  <img src="docs/images/logo.png" width="84" alt="Keel logo" />
 </p>
 
-<h1 align="center">Desktop Framework</h1>
+<h1 align="center">Keel</h1>
 
 <p align="center">Electron + React + TypeScript デスクトップアプリケーションフレームワーク</p>
 
@@ -18,8 +18,8 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green" />
-  <a href="https://github.com/gqallen931/electron-react-desktop-framework">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-electron--react--desktop--framework-181717?logo=github&logoColor=white" />
+  <a href="https://github.com/gqallen931/keel">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-keel-181717?logo=github&logoColor=white" />
   </a>
 </p>
 
@@ -29,7 +29,7 @@
 
 ### 1.1 概要
 
-Desktop Framework はデスクトップ業務システム向けのエンジニアリング骨格で、次の 4 層を提供します。
+Keel はデスクトップ業務システム向けのエンジニアリング骨格で、次の 4 層を提供します。
 
 - **デスクトップシェル**：フレームレスウィンドウ、自前タイトルバー、ウィンドウ制御とシステム機能の IPC；
 - **UI 体系**：デザイントークン、Ant Design テーマ整合、原子コンポーネントとアプリシェル；
@@ -39,7 +39,7 @@ Desktop Framework はデスクトップ業務システム向けのエンジニ�
 サンプルエンティティ（items）で API から画面までの一連の流れを示します。サンプルには業界固有のルール、
 実データ、第三者認証情報は含まれず、削除すれば空の骨格になります。
 
-リポジトリ：https://github.com/gqallen931/electron-react-desktop-framework
+リポジトリ：https://github.com/gqallen931/keel
 
 ### 1.2 適用シーン
 
@@ -421,8 +421,8 @@ flowchart LR
 
 ```bash
 # リポジトリをクローン
-git clone git@github.com:gqallen931/electron-react-desktop-framework.git
-cd electron-react-desktop-framework
+git clone git@github.com:gqallen931/keel.git
+cd keel
 
 # フロントエンド依存関係をインストール
 npm install

@@ -60,7 +60,7 @@ export default function TitleBar({
         <span className="tb-mark">
           <SafetyCertificateOutlined />
         </span>
-        <span className="tb-brand">Desktop Framework</span>
+        <span className="tb-brand">Keel</span>
         <span className="tb-sep" />
         <span className="tb-page">{title}</span>
       </div>

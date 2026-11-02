@@ -26,7 +26,7 @@ async def lifespan(app: FastAPI):
     logger.info("服务已停止")
 
 
-app = FastAPI(title="Desktop Framework Service", version="1.0.0", lifespan=lifespan)
+app = FastAPI(title="Keel Service", version="1.0.0", lifespan=lifespan)
 
 settings = get_settings()
 app.add_middleware(

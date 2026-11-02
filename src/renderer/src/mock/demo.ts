@@ -52,7 +52,7 @@ export function mockHealth(): HealthInfo {
 
 export function mockInfo(): ServiceInfo {
   return {
-    name: 'Desktop Framework Service',
+    name: 'Keel Service',
     version: '1.0.0',
     python: '3.10+',
     device: 'cpu',

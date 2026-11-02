@@ -82,6 +82,6 @@ export function buildSimpleReportHtml(title: string, bodyHtml: string): string {
   <h1>${title}</h1>
   <div class="meta">生成时间：${time}</div>
   ${bodyHtml}
-  <footer>Desktop Framework · 示例报告</footer>
+  <footer>Keel · 示例报告</footer>
 </body></html>`
 }

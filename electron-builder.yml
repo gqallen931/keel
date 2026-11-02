@@ -1,6 +1,6 @@
-appId: com.example.desktop-framework
-productName: Desktop Framework
-copyright: Copyright © 2026 SCS Framework
+appId: com.example.keel
+productName: Keel
+copyright: Copyright © 2026 Keel Contributors
 
 directories:
   output: release
@@ -31,7 +31,7 @@ nsis:
   allowToChangeInstallationDirectory: true
   createDesktopShortcut: always
   createStartMenuShortcut: true
-  shortcutName: Desktop Framework
+  shortcutName: Keel
   artifactName: ${productName}-${version}-setup.${ext}
 
 portable:
